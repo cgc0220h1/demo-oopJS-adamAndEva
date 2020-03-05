@@ -1,0 +1,58 @@
+.body-image {
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+}
+.foot-image {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+}
+
+.bubble-eva {
+    width: 100%;
+    height: 160px;
+    object-fit: contain;
+    position: absolute;
+    top: 15px;
+    left: 170px;
+}
+
+.bubble-adam {
+    width: auto ;
+    height: 150px;
+    position: absolute;
+    top: 5px;
+    left: 730px;
+}
+ #adam-thought {
+     position: absolute;
+     top: 50px;
+     left: 780px;
+     font-size: 20px;
+     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+ }
+
+ #eva-thought {
+     position: absolute;
+     top: 60px;
+     left: 1080px;
+     font-size: 20px;
+     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+ }
+
+ #adam-apple {
+     width: auto ;
+     height: 80px;
+     position: absolute;
+     top: 250px;
+     left: 760px;
+ }
+
+ #eva-apple {
+     width: auto ;
+     height: 80px;
+     position: absolute;
+     top: 250px;
+     left: 1090px;
+ }

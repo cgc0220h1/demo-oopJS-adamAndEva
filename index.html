@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trò chơi Adam và Eva</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<h1>Trò chơi Adam và Eva</h1>
+<button onclick="startGame()">Bắt đầu</button>
+<div>
+    <img src="img/adameva.png" alt="adam-eva" class="body-image">
+    <map name="adam-head">
+        <area shape="circle" onclick="alert('Hello')" coords="23,23,23,23" href="#" alt="map1">
+    </map>
+</div>
+<div>
+    <img src="img/crowd.png" alt="crowd" class="foot-image">
+</div>
+<div>
+    <img src="img/appletree.png" alt="apple-tree" style="position: absolute; left: 30px; top: 180px" id="adam-tree" onclick="eat(this.id)">
+</div>
+<div>
+    <img src="img/appletree.png" alt="apple-tree" style="position: absolute; left: 1300px; top: 180px" id="eva-tree" onclick="eat(this.id)">
+</div>
+<div>
+    <img src="img/bubble-thought.png" alt="bubble" class="bubble-eva" id="eva" onclick="speak(this.id);">
+    <span id="eva-thought"></span>
+    <img src="img/image-apple/apple_1.png" alt="apple" id="adam-apple">
+</div>
+<div>
+    <img src="img/bubble-thought-flip.png" alt="bubble" class="bubble-adam" id="adam" onclick="speak(this.id);">
+    <span id="adam-thought"></span>
+    <img src="img/image-apple/apple_1.png" alt="apple" id="eva-apple">
+</div>
+<script src="js/app.js"></script>
+</body>
+</html>
